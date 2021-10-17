@@ -1,7 +1,9 @@
 from flask import Flask, jsonify
+from flask_cors import CORS
 from flask_mysqldb import MySQL
 
 app = Flask(__name__)
+CORS(app)
 app.config["MYSQL_HOST"] = "mdb-test.c6vunyturrl6.us-west-1.rds.amazonaws.com"
 app.config["MYSQL_USER"] = "bsale_test"
 app.config["MYSQL_PASSWORD"] = "bsale_test"
