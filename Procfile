@@ -1,1 +1,1 @@
-web: gunicorn bsale/app:app
+web: gunicorn bsale.app:app
