@@ -1,0 +1,11 @@
+{
+    "plugins": [],
+    "source": {
+		"include": "./gui",
+        "includePattern": ".+\\.js(doc|x)?$",
+        "excludePattern": "(^|\\/|\\\\)_"
+    },
+	"opts": {
+		"destination": "guiDocs/"
+	}
+}
