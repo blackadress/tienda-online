@@ -1,18 +1,25 @@
-#Reto Bsale
-[Bsale](https://dojiw2m9tvv09.cloudfront.net/4/8/img-logos-logo-bsale-naranjo.png?1757)
+# Reto Bsale
+
+![Bsale](https://dojiw2m9tvv09.cloudfront.net/4/8/img-logos-logo-bsale-naranjo.png?1757 "bsale")
 
 Tienda online básica
 
 ## ENDPOINTS API
 [Lista de productos](#lista-de-productos)
+
 [Filtrar productos por nombre](#filtrar-productos-por-nombre)
+
 [Filtrar productos por categoría](#filtrar-productos-por-categoía)
+
 [Lista de categorías](#lista-de-categorías)
 
 ### Lista de productos
 Endpoint `dominio.ejemplo/products`
+
 Método: GET
+
 Se obtiene una lista de todos los productos de la BD.
+
 ```json
 [
 	{
@@ -37,12 +44,17 @@ Se obtiene una lista de todos los productos de la BD.
 ```
 
 ### Filtrar productos por nombre
+
 Endpoint `dominio.ejemplo/products/search/name/<string:name>`
+
 Método: GET
+
 Ejemplo request GET a `dominio.ejemplo/products/search/name/ner`
+
 Se obtiene una lista de todos los productos que coincidan con \#ner\# de la BD.
 
 Nota: '#' es un wildcard, es decir e*ner*getica coincide.
+
 ```json
 [
 	{
@@ -67,8 +79,11 @@ Nota: '#' es un wildcard, es decir e*ner*getica coincide.
 
 ### Filtrar productos por categoría
 Endpoint `dominio.ejemplo/products/category/<int:category_id>`
+
 Método: GET
+
 Ejemplo request GET a `dominio.ejemplo/products/category/2`
+
 Se obtiene una lista de todos los productos que coincidan con la categoría de ID=2.
 
 ```json
@@ -96,8 +111,11 @@ Se obtiene una lista de todos los productos que coincidan con la categoría de I
 
 ### Lista de categorías
 Endpoint `dominio.ejemplo/categories`
+
 Método: GET
+
 Se obtiene una lista de todas las categorías.
+
 ```json
 [
 	{
