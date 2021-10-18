@@ -13,6 +13,9 @@ Tienda online básica
 
 [Lista de categorías](#lista-de-categorías)
 
+## DOCUMENTACION FRONTEND
+[Generar documentacion con JSDoc](#generar-documentacion-con-jsdoc)
+
 ### Lista de productos
 Endpoint `dominio.ejemplo/products`
 
@@ -133,4 +136,17 @@ Se obtiene una lista de todas las categorías.
 	...
 ]
 
+```
+
+### Generar documentación con JSDoc
+Requisito: Tener instalado JSDoc
+```console
+$ npm -g i jsdoc
+```
+
+Generar y abrir documentación
+```console
+$ jsdoc -c jsdoc.json
+$ cd guiDocs
+$ firefox|chromium|brave|google-chrome index.html
 ```
