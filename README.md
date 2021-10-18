@@ -3,6 +3,9 @@
 ![Bsale](https://dojiw2m9tvv09.cloudfront.net/4/8/img-logos-logo-bsale-naranjo.png?1757 "bsale")
 
 Tienda online básica
+Prueba la app:
+FrontEnd: [link-netlify](https://loving-neumann-14ebec.netlify.app/)
+RESTful API: [link-heroku](https://pruebasupergenial.herokuapp.com/)
 
 ## ENDPOINTS API
 [Lista de productos](#lista-de-productos)
